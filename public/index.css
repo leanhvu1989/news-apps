@@ -1,0 +1,11 @@
+html * {
+  margin: 0;
+}
+
+/**
+* Fixed issue: icons are too high relative to normal text, and relative to normal icon fonts
+* in react-icon module 
+*/
+.icon {
+  vertical-align: middle;
+}
