@@ -27,7 +27,7 @@ export const SERVICE_URL = {
  * }  
  */
 export const buildQueryByFilter = (oFilter) => {
-  let urlString = "http://newsapi.org/v2/";
+  let urlString = "https://newsapi.org/v2/";
   let hasFilter = false;
   let queryString = "";
   urlString += (Boolean(oFilter.isTop) === true) ? "top-headlines?" : "everything?";
